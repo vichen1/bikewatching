@@ -1,11 +1,16 @@
-body {
-    font: 100%/1.5 system-ui, sans-serif;
-    display: flex;
-    flex-flow: column;
-    max-width: 800px;
-    min-height: 100vh;
-    box-sizing: border-box;
-    margin: auto;
-    padding: 1em;
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    background: #fafafa;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2rem;
+    font-weight: 700;
   }
   
