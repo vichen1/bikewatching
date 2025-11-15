@@ -44,7 +44,6 @@ html, body {
     position: relative;
   }
   
-  /* Overlay SVG */
   #map svg {
     position: absolute;
     top: 0;
@@ -54,7 +53,6 @@ html, body {
     pointer-events: none;
   }
   
-  /* Circles need pointer events ON for tooltips */
   #map svg circle {
     pointer-events: auto;
     fill: steelblue;
